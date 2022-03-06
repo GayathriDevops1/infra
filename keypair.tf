@@ -1,0 +1,6 @@
+module "my_keypair_calling_module" {
+
+  source     = "git::ssh://git@github.com:GayathriDevops1/terraform-modules.git//ec2/module?ref=main"
+  key_name   = "terraform"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDH7sZVOo2e+BqQNKp/JTFdSW3BzcX/kO3ZvNW99fp/QJ/7QvC3e4wP73OzyHoXB+9O24Xiv34+uMkGbdXKa2b3eFXvjnVWKa/9jW9HRd1SeRnzjxxxB6XYvxIAbue6y86lZ6guQVJVW36cFCvb7a5qVyvsQO+SsCzwqoKRG+j3LoBv7xoOzOxCPNwpBRX1nRHDmKVtbqnlQFwrpg3+1ThiUTa/TaQ0GaT9r2caIU5LaABnpUKh+hL5cXJmDEw0H+wBKYVZd2LuUsu3Gsr4P1mYv88/KvoISZkjv1+5E9/Oe8/H9R+9CSbI/Q9YJlh05ltKWG57jxIvuDJTIhNSHmuqn14ZlzY7jjYp6mpLAVi0LN37nrn6VUckGKp361jH7aWG4IcHMH/M1462LMwHRpCs3TDNR2TrLI1LeciMWvYwlb9c4icpI8SFxTklyZwNxnasWOK5ntG/E734M2BdbuObhCwDJikVtvG1E8b8SR5naLwAMGuGMiom1UrStyc34yi/dkuceY/1t6bEjhXJ97uAa+lDk0xLz6cPlgKhAc7XuDVtUxEPNpmVXhbycOlL4+f4pvA8zdSLaeut2v2qDfB+EA/0SBFVjZ1CYqiH7bAzDC5mcFEPreENmhTtMTc4Ly3rnB1F9QkBWmURpUPC5WRHloDU9bCkzlkyzDRwxSEG2w== gayathridear@gmail.com"
+}
